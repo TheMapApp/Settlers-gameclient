@@ -11,3 +11,5 @@ https://scontent-arn2-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/12219401_105883703416
 https://scontent-arn2-1.xx.fbcdn.net/hphotos-xtl1/v/t35.0-12/12325808_10208568697041910_180464866_o.jpg?oh=b5e88b66d7a767bbdc6a58948514b733&oe=5663B200
 
 There are is a person with an extremely large amount of lines because we encountered a few problems with commiting so we had to drop what we did initially and upload everything that was on a current state on a person's computer and work like that before we were able to commit anything. Those exagerate lines are caused because we had to commit an entire folder. 
+
+Also, the server program now only has 2 persons listed as contributers, while the client program have 4. The reason for that is that some of the work with the server has been made in the client program in order to make the client receive the information. Therefore "connecter" class in the client program, have been worked on by the server-group.
