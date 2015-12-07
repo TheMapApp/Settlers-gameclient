@@ -31,6 +31,7 @@ public class Connecter extends Listener {
         kryo.register(DiceRoll.class);
         kryo.register(TownX.class);
         kryo.register(TownY.class);
+        kryo.register(GameStart.class);
 
 
         client.start();
@@ -162,6 +163,11 @@ public class Connecter extends Listener {
             Main.townTempY = packet.townY;
             Main.addTownY = true;
             System.out.println("Received TownY " + packet.townY + "and" + Main.townY);
+        }
+        if(p instanceof GameStart){
+            Main.lobby = false;
+            Main.gameStart = true;
+            System.out.println("GameStart boolean received");
         }
 	}
 }
