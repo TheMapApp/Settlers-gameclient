@@ -112,14 +112,14 @@ public class Hexagon extends JPanel implements MouseListener {
 		g2.setStroke(new BasicStroke(3));
 		g.drawPolygon(shapex, shapey, 6);
 
-
+/*
 		if (itsontown == true ) {
 			g.setColor(_color);// sets the color to green
 			g.fillPolygon(shapex, shapey, 6);// colors the hexagon
 		} else if (itson == true) {
 				g.setColor( new Color(199, 21, 197)); // sets the color to black
 				g.fillPolygon(shapex, shapey, 6); // colors the hexagon
-			} else {
+			}*/
 
 
 			if(colCode==1){ // if the number from the server is 1
@@ -141,7 +141,7 @@ public class Hexagon extends JPanel implements MouseListener {
 
 			g.fillPolygon(shapex, shapey, 6); // colors the hexagon
 
-		}
+
 
 		for (int b = 0; b < 6; b++) {
 			middlearray[b].paint(g);

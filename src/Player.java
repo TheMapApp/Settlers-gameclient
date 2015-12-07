@@ -22,13 +22,20 @@ public class Player{
 		playerId=id; // initializes the player's id
 		resources[5]=0; // sets the victory points to 0
 		setcolor(3);// set the color of the player
-
+/*
 		resources[0] = 2;//wheat- each player gets 2 of it
 		resources[1] = 0;//stone - each player gets 2 of it
 		resources[2] = 4;//brick - each player gets 2 of it
 		resources[3] = 4;//wood - each player gets 2 of it
 		resources[4] = 2;//sheep -each player gets 2 of it
 		resources[5] = 0;//victory point- no victory points
+*/
+        resources[0] = 10;//wheat- each player gets 2 of it
+        resources[1] = 10;//stone - each player gets 2 of it
+        resources[2] = 10;//brick - each player gets 2 of it
+        resources[3] = 10;//wood - each player gets 2 of it
+        resources[4] = 10;//sheep -each player gets 2 of it
+        resources[5] = 0;//victory point- no victory points
 
 	}
 	//this function initialize an array at the start of the game
